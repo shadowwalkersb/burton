@@ -63,4 +63,5 @@ if __name__ == '__main__':
     w = GLWidget()
     w.resize(512, 512)
     w.show()
+    w.raise_()
     a.exec_()
